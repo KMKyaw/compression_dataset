@@ -1,0 +1,4502 @@
+[
+  {
+    "index": 0,
+    "prompt": "not ( True ) and ( True ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not ( True )",
+      "compressed_prompt_list": [
+        "not ( True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 1,
+    "prompt": "True and not not ( not False ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True not False )",
+      "compressed_prompt_list": [
+        "True not False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 2,
+    "prompt": "not True or False or ( False ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True False is",
+      "compressed_prompt_list": [
+        "not True False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 3,
+    "prompt": "False or not ( True ) and False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False True ) False",
+      "compressed_prompt_list": [
+        "False True ) False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 4,
+    "prompt": "True or not False and True and False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True not False is",
+      "compressed_prompt_list": [
+        "True not False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 5,
+    "prompt": "False or not not not False and True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False not True is",
+      "compressed_prompt_list": [
+        "False not True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 6,
+    "prompt": "not True and ( False or True ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True False True",
+      "compressed_prompt_list": [
+        "not True False True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 7,
+    "prompt": "True and not False or ( True ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True not False )",
+      "compressed_prompt_list": [
+        "True not False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 8,
+    "prompt": "not True or ( False and True ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True False True",
+      "compressed_prompt_list": [
+        "not True False True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 9,
+    "prompt": "not True or ( True or False ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not True False )",
+      "compressed_prompt_list": [
+        "not True False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 10,
+    "prompt": "False or ( False ) and not False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False ) not False",
+      "compressed_prompt_list": [
+        "False ) not False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 11,
+    "prompt": "not False or True and False and False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False True False",
+      "compressed_prompt_list": [
+        "not False True False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 12,
+    "prompt": "not True or False or not not True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not True False is",
+      "compressed_prompt_list": [
+        "not True False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 13,
+    "prompt": "True and True and False and not True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "True False not True",
+      "compressed_prompt_list": [
+        "True False not True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 14,
+    "prompt": "not not True and not True or True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not True True is",
+      "compressed_prompt_list": [
+        "not True True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 15,
+    "prompt": "not not not ( True and False ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "( True False )",
+      "compressed_prompt_list": [
+        "( True False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 16,
+    "prompt": "not not False and not not not False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not not False is",
+      "compressed_prompt_list": [
+        "not not False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 17,
+    "prompt": "( True and not True and False ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "True not False )",
+      "compressed_prompt_list": [
+        "True not False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 18,
+    "prompt": "False and False and False or not False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False and not is",
+      "compressed_prompt_list": [
+        "False and not is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 19,
+    "prompt": "False or ( False and not False ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not False )",
+      "compressed_prompt_list": [
+        "False not False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 20,
+    "prompt": "True and False or ( not True ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "True False not True",
+      "compressed_prompt_list": [
+        "True False not True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 21,
+    "prompt": "not not ( True ) and not False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not True ) False",
+      "compressed_prompt_list": [
+        "not True ) False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 22,
+    "prompt": "not False or ( True ) and True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False True )",
+      "compressed_prompt_list": [
+        "not False True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 23,
+    "prompt": "not ( True ) or False or True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not True ) False",
+      "compressed_prompt_list": [
+        "not True ) False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 24,
+    "prompt": "( True and not not not True ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "True not ) is",
+      "compressed_prompt_list": [
+        "True not ) is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 25,
+    "prompt": "( False or not False or False ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False or not is",
+      "compressed_prompt_list": [
+        "False or not is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 26,
+    "prompt": "False and False or True and not False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False True not False",
+      "compressed_prompt_list": [
+        "False True not False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 27,
+    "prompt": "not not False or not False or True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False True is",
+      "compressed_prompt_list": [
+        "not False True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 28,
+    "prompt": "True and not True or False or True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True not False is",
+      "compressed_prompt_list": [
+        "True not False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 29,
+    "prompt": "not False or True and False or False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False True False",
+      "compressed_prompt_list": [
+        "not False True False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 30,
+    "prompt": "False and ( not False ) or False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not False False",
+      "compressed_prompt_list": [
+        "False not False False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 31,
+    "prompt": "not not not not ( not False ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not not False )",
+      "compressed_prompt_list": [
+        "not not False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 32,
+    "prompt": "( True ) and True or not True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True ) True not",
+      "compressed_prompt_list": [
+        "True ) True not"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 33,
+    "prompt": "not True or False and False and False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True False is",
+      "compressed_prompt_list": [
+        "not True False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 34,
+    "prompt": "not not not not not not not False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not not False is",
+      "compressed_prompt_list": [
+        "not not False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 35,
+    "prompt": "not True or not False and not False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not True not False",
+      "compressed_prompt_list": [
+        "not True not False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 36,
+    "prompt": "False or True or False and not False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False True not False",
+      "compressed_prompt_list": [
+        "False True not False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 37,
+    "prompt": "not ( True or True ) and False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True False is",
+      "compressed_prompt_list": [
+        "not True False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 38,
+    "prompt": "not not not not True and not True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not not True is",
+      "compressed_prompt_list": [
+        "not not True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 39,
+    "prompt": "( False ) or False and not True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False ) not True",
+      "compressed_prompt_list": [
+        "False ) not True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 40,
+    "prompt": "( False and True or not False ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False True not False",
+      "compressed_prompt_list": [
+        "False True not False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 41,
+    "prompt": "not not not ( False and True ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "( False True )",
+      "compressed_prompt_list": [
+        "( False True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 42,
+    "prompt": "not not True and not False or True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not True not False",
+      "compressed_prompt_list": [
+        "not True not False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 43,
+    "prompt": "not False or True and not not True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False True is",
+      "compressed_prompt_list": [
+        "not False True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 44,
+    "prompt": "True or True or not False or False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True or not False",
+      "compressed_prompt_list": [
+        "True or not False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 45,
+    "prompt": "( not False and False and False ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not False ) is",
+      "compressed_prompt_list": [
+        "not False ) is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 46,
+    "prompt": "( ( not True ) or True ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not True ) is",
+      "compressed_prompt_list": [
+        "not True ) is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 47,
+    "prompt": "not not ( not False or True ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False or True",
+      "compressed_prompt_list": [
+        "not False or True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 48,
+    "prompt": "not True or False or ( True ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not True False )",
+      "compressed_prompt_list": [
+        "not True False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 49,
+    "prompt": "False or ( not False ) and True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False not False True",
+      "compressed_prompt_list": [
+        "False not False True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 50,
+    "prompt": "not False or False or ( False ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False or )",
+      "compressed_prompt_list": [
+        "not False or )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 51,
+    "prompt": "not not False or False and not True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not False not True",
+      "compressed_prompt_list": [
+        "not False not True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 52,
+    "prompt": "True or ( ( not True ) ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True not True )",
+      "compressed_prompt_list": [
+        "True not True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 53,
+    "prompt": "not False and not False and not False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False not is",
+      "compressed_prompt_list": [
+        "not False not is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 54,
+    "prompt": "( False ) and not False and True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not False True",
+      "compressed_prompt_list": [
+        "False not False True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 55,
+    "prompt": "( True ) and False or not False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True ) False not",
+      "compressed_prompt_list": [
+        "True ) False not"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 56,
+    "prompt": "( not False and ( True ) ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False True )",
+      "compressed_prompt_list": [
+        "not False True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 57,
+    "prompt": "False or not ( False ) or True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False not True is",
+      "compressed_prompt_list": [
+        "False not True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 58,
+    "prompt": "True and not False and not not True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True not False True",
+      "compressed_prompt_list": [
+        "True not False True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 59,
+    "prompt": "not True and True and True or False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True False is",
+      "compressed_prompt_list": [
+        "not True False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 60,
+    "prompt": "not not ( False and not True ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not True )",
+      "compressed_prompt_list": [
+        "False not True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 61,
+    "prompt": "True or not ( ( False ) ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True not False )",
+      "compressed_prompt_list": [
+        "True not False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 62,
+    "prompt": "False or not True or False or False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not True False",
+      "compressed_prompt_list": [
+        "False not True False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 63,
+    "prompt": "False or not not True or not False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False not True False",
+      "compressed_prompt_list": [
+        "False not True False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 64,
+    "prompt": "not ( True or True or False ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True False )",
+      "compressed_prompt_list": [
+        "not True False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 65,
+    "prompt": "False or not not not not not False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False or not is",
+      "compressed_prompt_list": [
+        "False or not is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 66,
+    "prompt": "not ( False ) or not not True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False ) True",
+      "compressed_prompt_list": [
+        "not False ) True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 67,
+    "prompt": "True and not False or False and False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True not False is",
+      "compressed_prompt_list": [
+        "True not False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 68,
+    "prompt": "True or ( not ( True ) ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True or not is",
+      "compressed_prompt_list": [
+        "True or not is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 69,
+    "prompt": "( False or True and not True ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False True not )",
+      "compressed_prompt_list": [
+        "False True not )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 70,
+    "prompt": "False or not True and True or True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False not True True",
+      "compressed_prompt_list": [
+        "False not True True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 71,
+    "prompt": "not not not not not not not True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not not True is",
+      "compressed_prompt_list": [
+        "not not True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 72,
+    "prompt": "( not False ) and False or True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False False True",
+      "compressed_prompt_list": [
+        "not False False True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 73,
+    "prompt": "False and False or not ( True ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False True ) is",
+      "compressed_prompt_list": [
+        "False True ) is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 74,
+    "prompt": "( not False or True ) and True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False True True",
+      "compressed_prompt_list": [
+        "not False True True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 75,
+    "prompt": "not ( False ) and ( False ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not ( False )",
+      "compressed_prompt_list": [
+        "not ( False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 76,
+    "prompt": "False or True and not not not False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False True False is",
+      "compressed_prompt_list": [
+        "False True False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 77,
+    "prompt": "( True ) and True and not True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "True ) not is",
+      "compressed_prompt_list": [
+        "True ) not is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 78,
+    "prompt": "( not True ) and True and False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True False is",
+      "compressed_prompt_list": [
+        "not True False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 79,
+    "prompt": "( not not True and not False ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not not False )",
+      "compressed_prompt_list": [
+        "not not False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 80,
+    "prompt": "True and ( False ) or not False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True False not False",
+      "compressed_prompt_list": [
+        "True False not False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 81,
+    "prompt": "not not not False or False and False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False False is",
+      "compressed_prompt_list": [
+        "not False False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 82,
+    "prompt": "not not not False and True or False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False True is",
+      "compressed_prompt_list": [
+        "not False True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 83,
+    "prompt": "True or ( True or not False ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True not False )",
+      "compressed_prompt_list": [
+        "True not False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 84,
+    "prompt": "not False or ( ( False ) ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False ) )",
+      "compressed_prompt_list": [
+        "not False ) )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 85,
+    "prompt": "not not ( False and not False ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not False ) is",
+      "compressed_prompt_list": [
+        "not False ) is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 86,
+    "prompt": "not not not not True or not True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not not True is",
+      "compressed_prompt_list": [
+        "not not True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 87,
+    "prompt": "False and not ( False or False ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not ) is",
+      "compressed_prompt_list": [
+        "False not ) is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 88,
+    "prompt": "True and True and True or not False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True not False is",
+      "compressed_prompt_list": [
+        "True not False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 89,
+    "prompt": "False or not False or True and True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False not True is",
+      "compressed_prompt_list": [
+        "False not True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 90,
+    "prompt": "not False and False and False or False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not False False is",
+      "compressed_prompt_list": [
+        "not False False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 91,
+    "prompt": "( False ) or not False or True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False ) not True",
+      "compressed_prompt_list": [
+        "False ) not True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 92,
+    "prompt": "( not False ) or ( True ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False True )",
+      "compressed_prompt_list": [
+        "not False True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 93,
+    "prompt": "not not ( False or not True ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not False True )",
+      "compressed_prompt_list": [
+        "not False True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 94,
+    "prompt": "False or not False or False or False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False not False is",
+      "compressed_prompt_list": [
+        "False not False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 95,
+    "prompt": "False or not False and ( False ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not ) is",
+      "compressed_prompt_list": [
+        "False not ) is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 96,
+    "prompt": "False or ( False ) or not True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not True is",
+      "compressed_prompt_list": [
+        "False not True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 97,
+    "prompt": "not True or False and True and True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True False True",
+      "compressed_prompt_list": [
+        "not True False True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 98,
+    "prompt": "True or ( True or not True ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True or not is",
+      "compressed_prompt_list": [
+        "True or not is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 99,
+    "prompt": "True and not False and True or True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True not False is",
+      "compressed_prompt_list": [
+        "True not False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 100,
+    "prompt": "False or not False or not not True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False not True is",
+      "compressed_prompt_list": [
+        "False not True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 101,
+    "prompt": "( True or not False ) or False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True not False False",
+      "compressed_prompt_list": [
+        "True not False False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 102,
+    "prompt": "False or not ( True ) and True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False True ) True",
+      "compressed_prompt_list": [
+        "False True ) True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 103,
+    "prompt": "not False and not True and not False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not False not True",
+      "compressed_prompt_list": [
+        "not False not True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 104,
+    "prompt": "False and ( True and not False ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not False )",
+      "compressed_prompt_list": [
+        "False not False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 105,
+    "prompt": "not False or ( False ) or True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False ( True",
+      "compressed_prompt_list": [
+        "not False ( True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 106,
+    "prompt": "False and not ( False and True ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not True )",
+      "compressed_prompt_list": [
+        "False not True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 107,
+    "prompt": "( True or not not not False ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True not False )",
+      "compressed_prompt_list": [
+        "True not False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 108,
+    "prompt": "False and ( False or not False ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not ) is",
+      "compressed_prompt_list": [
+        "False not ) is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 109,
+    "prompt": "False or not True or True and False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False or not True",
+      "compressed_prompt_list": [
+        "False or not True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 110,
+    "prompt": "True and not True or True and True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True not True is",
+      "compressed_prompt_list": [
+        "True not True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 111,
+    "prompt": "( not False or ( True ) ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False True )",
+      "compressed_prompt_list": [
+        "not False True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 112,
+    "prompt": "( ( not ( True ) ) ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "( not True )",
+      "compressed_prompt_list": [
+        "( not True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 113,
+    "prompt": "False and False and not ( False ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not ) is",
+      "compressed_prompt_list": [
+        "False not ) is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 114,
+    "prompt": "not True and not True and not True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True not is",
+      "compressed_prompt_list": [
+        "not True not is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 115,
+    "prompt": "not ( True or False ) or True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True False True is",
+      "compressed_prompt_list": [
+        "True False True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 116,
+    "prompt": "False or ( True ) or not True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False True ) not",
+      "compressed_prompt_list": [
+        "False True ) not"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 117,
+    "prompt": "False or False and False or not True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not True is",
+      "compressed_prompt_list": [
+        "False not True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 118,
+    "prompt": "True or False or not True or False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True or False not",
+      "compressed_prompt_list": [
+        "True or False not"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 119,
+    "prompt": "not True and ( True and True ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True True )",
+      "compressed_prompt_list": [
+        "not True True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 120,
+    "prompt": "not True and True or True and False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True False is",
+      "compressed_prompt_list": [
+        "not True False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 121,
+    "prompt": "not False or ( True or True ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False True )",
+      "compressed_prompt_list": [
+        "not False True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 122,
+    "prompt": "not ( False or ( False ) ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not ( False is",
+      "compressed_prompt_list": [
+        "not ( False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 123,
+    "prompt": "not ( True or True ) and True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True True is",
+      "compressed_prompt_list": [
+        "not True True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 124,
+    "prompt": "False or not False or True or True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False or not True",
+      "compressed_prompt_list": [
+        "False or not True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 125,
+    "prompt": "False or False and not not not False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not False is",
+      "compressed_prompt_list": [
+        "False not False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 126,
+    "prompt": "not ( True or False or True ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True False )",
+      "compressed_prompt_list": [
+        "not True False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 127,
+    "prompt": "( False ) or not True and False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not True False",
+      "compressed_prompt_list": [
+        "False not True False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 128,
+    "prompt": "True and True and not not not False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True and False is",
+      "compressed_prompt_list": [
+        "True and False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 129,
+    "prompt": "( True ) or True and not True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True ) not True",
+      "compressed_prompt_list": [
+        "True ) not True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 130,
+    "prompt": "False and False and not True and False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not True is",
+      "compressed_prompt_list": [
+        "False not True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 131,
+    "prompt": "( True ) and not True or True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True ) not True",
+      "compressed_prompt_list": [
+        "True ) not True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 132,
+    "prompt": "not not not True and False and False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True False is",
+      "compressed_prompt_list": [
+        "not True False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 133,
+    "prompt": "False and False and not not not True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not True is",
+      "compressed_prompt_list": [
+        "False not True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 134,
+    "prompt": "False and False or False or not True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not True is",
+      "compressed_prompt_list": [
+        "False not True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 135,
+    "prompt": "False or ( not ( False ) ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False not ) is",
+      "compressed_prompt_list": [
+        "False not ) is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 136,
+    "prompt": "not True and True and not not False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True False is",
+      "compressed_prompt_list": [
+        "not True False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 137,
+    "prompt": "( False ) and ( not False ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not False )",
+      "compressed_prompt_list": [
+        "False not False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 138,
+    "prompt": "( not True ) and True or True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not True True is",
+      "compressed_prompt_list": [
+        "not True True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 139,
+    "prompt": "False and True and ( not False ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False True not False",
+      "compressed_prompt_list": [
+        "False True not False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 140,
+    "prompt": "( ( True ) ) or not False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True ) not False",
+      "compressed_prompt_list": [
+        "True ) not False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 141,
+    "prompt": "not True and False or False or True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not True False is",
+      "compressed_prompt_list": [
+        "not True False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 142,
+    "prompt": "True and not True and True and True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "True not True is",
+      "compressed_prompt_list": [
+        "True not True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 143,
+    "prompt": "( True or True or not False ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True not False )",
+      "compressed_prompt_list": [
+        "True not False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 144,
+    "prompt": "True or not False and True or True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True not False True",
+      "compressed_prompt_list": [
+        "True not False True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 145,
+    "prompt": "( not ( False ) or False ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False ) is",
+      "compressed_prompt_list": [
+        "not False ) is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 146,
+    "prompt": "True and not ( True or False ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "True not False )",
+      "compressed_prompt_list": [
+        "True not False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 147,
+    "prompt": "not ( False and True ) and True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False True True is",
+      "compressed_prompt_list": [
+        "False True True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 148,
+    "prompt": "not ( True and True ) or False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True ) False",
+      "compressed_prompt_list": [
+        "not True ) False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 149,
+    "prompt": "False or not True and not not False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not True False",
+      "compressed_prompt_list": [
+        "False not True False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 150,
+    "prompt": "not True and False or False and False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True False is",
+      "compressed_prompt_list": [
+        "not True False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 151,
+    "prompt": "not True or True and False or False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True False is",
+      "compressed_prompt_list": [
+        "not True False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 152,
+    "prompt": "( not ( False ) and False ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not False ) is",
+      "compressed_prompt_list": [
+        "not False ) is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 153,
+    "prompt": "False or ( True and not True ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not True )",
+      "compressed_prompt_list": [
+        "False not True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 154,
+    "prompt": "not False and not True or not True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not False not True",
+      "compressed_prompt_list": [
+        "not False not True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 155,
+    "prompt": "( False or not not not False ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False or not is",
+      "compressed_prompt_list": [
+        "False or not is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 156,
+    "prompt": "( not False ) or True and False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False True False",
+      "compressed_prompt_list": [
+        "not False True False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 157,
+    "prompt": "( not not True ) or not False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not True ) False",
+      "compressed_prompt_list": [
+        "not True ) False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 158,
+    "prompt": "True or not ( ( True ) ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True or not )",
+      "compressed_prompt_list": [
+        "True or not )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 159,
+    "prompt": "( False ) and False or not False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False ) False not",
+      "compressed_prompt_list": [
+        "False ) False not"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 160,
+    "prompt": "not False and True or ( True ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False True )",
+      "compressed_prompt_list": [
+        "not False True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 161,
+    "prompt": "True or not not ( not False ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True not False )",
+      "compressed_prompt_list": [
+        "True not False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 162,
+    "prompt": "False and not True and False and True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not True is",
+      "compressed_prompt_list": [
+        "False not True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 163,
+    "prompt": "not not True and True and not True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True True is",
+      "compressed_prompt_list": [
+        "not True True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 164,
+    "prompt": "not False or not ( not False ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False False )",
+      "compressed_prompt_list": [
+        "not False False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 165,
+    "prompt": "not not ( True ) or not True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not True ) True",
+      "compressed_prompt_list": [
+        "not True ) True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 166,
+    "prompt": "( True and not True and True ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "True not ) is",
+      "compressed_prompt_list": [
+        "True not ) is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 167,
+    "prompt": "True or False or not True or True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True or False not",
+      "compressed_prompt_list": [
+        "True or False not"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 168,
+    "prompt": "not True or True and False and False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True False is",
+      "compressed_prompt_list": [
+        "not True False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 169,
+    "prompt": "True and not not not not not True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "True not not is",
+      "compressed_prompt_list": [
+        "True not not is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 170,
+    "prompt": "not True and ( False ) and False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True False )",
+      "compressed_prompt_list": [
+        "not True False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 171,
+    "prompt": "False and False or not True and False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not True False",
+      "compressed_prompt_list": [
+        "False not True False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 172,
+    "prompt": "True or False and not True and False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True False False is",
+      "compressed_prompt_list": [
+        "True False False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 173,
+    "prompt": "not ( False or False or True ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not False True )",
+      "compressed_prompt_list": [
+        "not False True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 174,
+    "prompt": "not False or True or True and False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False or True",
+      "compressed_prompt_list": [
+        "not False or True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 175,
+    "prompt": "not False and False or False or False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not False False is",
+      "compressed_prompt_list": [
+        "not False False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 176,
+    "prompt": "( not True ) and ( False ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True False )",
+      "compressed_prompt_list": [
+        "not True False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 177,
+    "prompt": "True and not not False and not False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "True not False is",
+      "compressed_prompt_list": [
+        "True not False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 178,
+    "prompt": "not ( not not False ) and True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False True is",
+      "compressed_prompt_list": [
+        "not False True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 179,
+    "prompt": "not ( not False ) and not False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not False ) is",
+      "compressed_prompt_list": [
+        "not False ) is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 180,
+    "prompt": "False or True and not False or True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False or True not",
+      "compressed_prompt_list": [
+        "False or True not"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 181,
+    "prompt": "( not not not True and True ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True ) is",
+      "compressed_prompt_list": [
+        "not True ) is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 182,
+    "prompt": "False and not ( True ) or True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False not True )",
+      "compressed_prompt_list": [
+        "False not True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 183,
+    "prompt": "( not True and False or True ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not True False )",
+      "compressed_prompt_list": [
+        "not True False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 184,
+    "prompt": "not ( not not True ) or False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True ) False",
+      "compressed_prompt_list": [
+        "not True ) False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 185,
+    "prompt": "( not False ) or ( False ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False ) False",
+      "compressed_prompt_list": [
+        "not False ) False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 186,
+    "prompt": "not not not False and True and False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False True False is",
+      "compressed_prompt_list": [
+        "False True False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 187,
+    "prompt": "True or not True or not not True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True or not is",
+      "compressed_prompt_list": [
+        "True or not is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 188,
+    "prompt": "not False or not not False and False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False False is",
+      "compressed_prompt_list": [
+        "not False False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 189,
+    "prompt": "not False and ( False or False ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not False False )",
+      "compressed_prompt_list": [
+        "not False False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 190,
+    "prompt": "False and True or ( not False ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False True not False",
+      "compressed_prompt_list": [
+        "False True not False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 191,
+    "prompt": "False and not False and ( False ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not ) is",
+      "compressed_prompt_list": [
+        "False not ) is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 192,
+    "prompt": "not ( ( False and True ) ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False and True",
+      "compressed_prompt_list": [
+        "not False and True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 193,
+    "prompt": "False or ( not False ) and False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not False False",
+      "compressed_prompt_list": [
+        "False not False False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 194,
+    "prompt": "False and not False or False and True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not True is",
+      "compressed_prompt_list": [
+        "False not True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 195,
+    "prompt": "not False and not not True and True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False True is",
+      "compressed_prompt_list": [
+        "not False True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 196,
+    "prompt": "True and True or False and not True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True False not True",
+      "compressed_prompt_list": [
+        "True False not True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 197,
+    "prompt": "not True or False and True or False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True or False",
+      "compressed_prompt_list": [
+        "not True or False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 198,
+    "prompt": "True or False or not True and True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True False not is",
+      "compressed_prompt_list": [
+        "True False not is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 199,
+    "prompt": "False or False or not True or False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not True False",
+      "compressed_prompt_list": [
+        "False not True False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 200,
+    "prompt": "False or False or True and not False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False or True not",
+      "compressed_prompt_list": [
+        "False or True not"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 201,
+    "prompt": "( not ( True or False ) ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True or False",
+      "compressed_prompt_list": [
+        "not True or False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 202,
+    "prompt": "not False and False or True and True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False True is",
+      "compressed_prompt_list": [
+        "not False True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 203,
+    "prompt": "True and False or ( not False ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True False not False",
+      "compressed_prompt_list": [
+        "True False not False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 204,
+    "prompt": "not False or not not not not True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False True is",
+      "compressed_prompt_list": [
+        "not False True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 205,
+    "prompt": "True and ( not ( True ) ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "True not ) is",
+      "compressed_prompt_list": [
+        "True not ) is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 206,
+    "prompt": "True and False and not True or False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "True False not is",
+      "compressed_prompt_list": [
+        "True False not is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 207,
+    "prompt": "( ( not False ) ) and True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False True is",
+      "compressed_prompt_list": [
+        "not False True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 208,
+    "prompt": "not ( True ) and ( False ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True False )",
+      "compressed_prompt_list": [
+        "not True False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 209,
+    "prompt": "True or not False and False and False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True not False is",
+      "compressed_prompt_list": [
+        "True not False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 210,
+    "prompt": "True and not ( False or False ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True not False )",
+      "compressed_prompt_list": [
+        "True not False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 211,
+    "prompt": "not True and False or False and True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True False is",
+      "compressed_prompt_list": [
+        "not True False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 212,
+    "prompt": "not True or not False and not True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True False True",
+      "compressed_prompt_list": [
+        "not True False True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 213,
+    "prompt": "not True or False or True and True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not True False True",
+      "compressed_prompt_list": [
+        "not True False True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 214,
+    "prompt": "not True and True and False and True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True False True",
+      "compressed_prompt_list": [
+        "not True False True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 215,
+    "prompt": "False and False or not True and True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not True is",
+      "compressed_prompt_list": [
+        "False not True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 216,
+    "prompt": "( not False or False and True ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False True )",
+      "compressed_prompt_list": [
+        "not False True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 217,
+    "prompt": "( True or False ) or not True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True or False True",
+      "compressed_prompt_list": [
+        "True or False True"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 218,
+    "prompt": "not not not ( False ) and False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "( False ) False",
+      "compressed_prompt_list": [
+        "( False ) False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 219,
+    "prompt": "not False and False and False and True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not False True is",
+      "compressed_prompt_list": [
+        "not False True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 220,
+    "prompt": "False and not True and True or False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not True is",
+      "compressed_prompt_list": [
+        "False not True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 221,
+    "prompt": "( False or not False and False ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not False )",
+      "compressed_prompt_list": [
+        "False not False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 222,
+    "prompt": "False or ( False or not False ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "False or not )",
+      "compressed_prompt_list": [
+        "False or not )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 223,
+    "prompt": "not False or True or False and False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False True False",
+      "compressed_prompt_list": [
+        "not False True False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 224,
+    "prompt": "True or ( not False ) or True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True not False is",
+      "compressed_prompt_list": [
+        "True not False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 225,
+    "prompt": "not False and False or True or False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False True False",
+      "compressed_prompt_list": [
+        "not False True False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 226,
+    "prompt": "False and not ( not not False ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not ) is",
+      "compressed_prompt_list": [
+        "False not ) is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 227,
+    "prompt": "not not ( not True ) or False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not not True False",
+      "compressed_prompt_list": [
+        "not not True False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 228,
+    "prompt": "False and not True and True and False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not True is",
+      "compressed_prompt_list": [
+        "False not True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 229,
+    "prompt": "True or False and not ( True ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True False True )",
+      "compressed_prompt_list": [
+        "True False True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 230,
+    "prompt": "not ( False ) and ( True ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False True )",
+      "compressed_prompt_list": [
+        "not False True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 231,
+    "prompt": "False and not ( ( True ) ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not True )",
+      "compressed_prompt_list": [
+        "False not True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 232,
+    "prompt": "not False or ( not not False ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False ) is",
+      "compressed_prompt_list": [
+        "not False ) is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 233,
+    "prompt": "( ( not False ) and False ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not False ) is",
+      "compressed_prompt_list": [
+        "not False ) is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 234,
+    "prompt": "True or False and not False and True is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True False True is",
+      "compressed_prompt_list": [
+        "True False True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 235,
+    "prompt": "( ( not True and True ) ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not True True )",
+      "compressed_prompt_list": [
+        "not True True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 236,
+    "prompt": "not ( False ) or not not False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False ) False",
+      "compressed_prompt_list": [
+        "not False ) False"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 237,
+    "prompt": "not ( False or False and False ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False ) is",
+      "compressed_prompt_list": [
+        "not False ) is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 238,
+    "prompt": "False and not ( not not True ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not True )",
+      "compressed_prompt_list": [
+        "False not True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 239,
+    "prompt": "False and False and not ( True ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not True )",
+      "compressed_prompt_list": [
+        "False not True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 240,
+    "prompt": "False or ( not False and False ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not False )",
+      "compressed_prompt_list": [
+        "False not False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 241,
+    "prompt": "False or ( not not not True ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "False not True )",
+      "compressed_prompt_list": [
+        "False not True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 242,
+    "prompt": "( not False ) or not not False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False False is",
+      "compressed_prompt_list": [
+        "not False False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 243,
+    "prompt": "not False and False and True or False is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "not False True is",
+      "compressed_prompt_list": [
+        "not False True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 244,
+    "prompt": "True or not False and ( False ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "True not False is",
+      "compressed_prompt_list": [
+        "True not False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 245,
+    "prompt": "( not ( False ) ) or False is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False False is",
+      "compressed_prompt_list": [
+        "not False False is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 246,
+    "prompt": "True and not True or False and True is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "True False True is",
+      "compressed_prompt_list": [
+        "True False True is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 247,
+    "prompt": "not ( not not not not False ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False ) is",
+      "compressed_prompt_list": [
+        "not False ) is"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 248,
+    "prompt": "True and ( not True or False ) is",
+    "metadata": {
+      "target": "False"
+    },
+    "result": {
+      "compressed_prompt": "True not False )",
+      "compressed_prompt_list": [
+        "True not False )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  },
+  {
+    "index": 249,
+    "prompt": "( not not not False or True ) is",
+    "metadata": {
+      "target": "True"
+    },
+    "result": {
+      "compressed_prompt": "not False True )",
+      "compressed_prompt_list": [
+        "not False True )"
+      ],
+      "origin_tokens": 9,
+      "compressed_tokens": 4,
+      "ratio": "2.2x",
+      "rate": "44.4%",
+      "saving": ", Saving $0.0 in GPT-4."
+    }
+  }
+]
